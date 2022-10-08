@@ -1,0 +1,9 @@
+.item-detail {
+  &_image-container {
+    height: 500px;
+
+    img {
+      max-height: 100%;
+    }
+  }
+}
