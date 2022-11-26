@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# Garden Shop App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Acerca del proyecto
+Para este proyecto se utilizó la idea de un carrito en el que se puedan separar los productos por categorías pero verlos todos juntos en la homepage.
+
+El Usuario puede ingresar en cada producto para ver los detalles y desde allí poder agregarlo al carrito.
+
+El carrito es visible y accesible desde todas las páginas encontrándose en el header, el mismo muestra en tiempo real la cantidad de productos agregados, al hacer click en el carrito se muestra una página con el detalle del mismo y los botones para Crear una Orden o Limpiar el Carrito.
+
+Al hacer click en el botón de Crear Orden, se muestra una página con el contenido del carrito y un formulario para completar los datos del Usuario, allí valida que el email se ingrese dos veces de forma idéntica, al completar todos los datos se activa el botón para hacer el pedido el cual envía los datos a Firebase inluyendo además la fecha y hora de creación retornando al Usuario el Número de Orden lo cual es el ID en la base de datos.
+
+## Paquetes Extras utilizados
+* bootstrap: Librería de estilos para mantener un estandar entre los diferentes componentes.
+
+* bootstrap-icons: Librería de íconos de Bootstrap.
+* sass: Utilizado para manejar los estilos custom y poder usar variables de bootstrap.
+
+---
 
 ## Available Scripts
 

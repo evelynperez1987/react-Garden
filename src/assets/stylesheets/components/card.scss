@@ -4,8 +4,10 @@
   transition: all ease-in-out 0.25s;
   border-radius: 10px;
 
-  &:hover {
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  &-hover {
+    &:hover {
+      box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
   }
 
   a {

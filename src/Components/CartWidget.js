@@ -1,8 +1,15 @@
+import { useCart } from "../context/CartContext"
+import { Link } from "react-router-dom"
+
 const CartWidget = () => {
+
+  const {products} = useCart() 
+
   return (
-    <button type="button" className="btn btn-light">
+    <Link to="/cart" type="button" className="btn btn-light">
       <i className="bi bi-cart3"></i>
-    </button>
+      <span>{products.length}</span>
+    </Link>
   )
 }
 

@@ -1,7 +1,3 @@
-
-@import "../../../node_modules/bootstrap/scss/functions";
-@import "../../../node_modules/bootstrap/scss/variables";
-
 img {
   max-width: 100%;
 }
@@ -16,5 +12,6 @@ img {
 }
 
 .success {
-  color: $green-600;
+  color: #146c43;
 }
+/*# sourceMappingURL=general.css.map */
