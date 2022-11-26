@@ -1,0 +1,17 @@
+img {
+  max-width: 100%;
+}
+
+.error {
+  color: red;
+}
+
+.d-inline-block li {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.success {
+  color: #146c43;
+}
+/*# sourceMappingURL=general.css.map */

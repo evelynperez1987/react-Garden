@@ -1,0 +1,8 @@
+.item-detail_image-container {
+  height: 500px;
+}
+
+.item-detail_image-container img {
+  max-height: 100%;
+}
+/*# sourceMappingURL=itemDetail.css.map */

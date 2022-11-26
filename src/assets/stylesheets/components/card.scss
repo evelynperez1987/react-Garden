@@ -1,0 +1,45 @@
+.card {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  transition: all ease-in-out 0.25s;
+  border-radius: 10px;
+
+  &-hover {
+    &:hover {
+      box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #212529;
+  }
+
+  &-name {
+    font-size: 1.5rem;
+    text-align: center;
+    height: 4rem;
+    line-height: 1.2;
+    overflow: hidden;
+    padding-bottom: 0.5rem;
+  }
+
+  &-price {
+    text-align: center;
+    font-weight: bold;
+    height: 20px;
+  }
+
+  &-image-container {
+    text-align: center;
+    height: 220px;
+    padding-bottom: 0.5rem;
+
+    img {
+      max-width: 100%;
+      max-height: 200px;
+      width: auto;
+    }
+  }
+}
+

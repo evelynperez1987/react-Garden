@@ -1,0 +1,20 @@
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+img {
+  max-width: 100%;
+}
+
+.error {
+  color: red;
+}
+
+.d-inline-block li {
+  list-style-position: inside;
+  text-align: left;
+}
+
+.success {
+  color: $green-600;
+}
